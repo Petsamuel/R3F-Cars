@@ -1,0 +1,18 @@
+/* reset default css */
+/* body {
+  /* background: linear-gradient(to right, #fc466b, #3f5efb); */
+  /* background: linear-gradient(
+    to right,
+    #8e2de2,
+    #4a00e0,
+    #0077b6,
+    #0096c7,
+    #00b4d8
+  ); 
+  background: linear-gradient(135deg, #f7f7f7, #e8e8e8, #d6d6d6, #c4c4c4, #b2b2b2);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
