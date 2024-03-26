@@ -6,7 +6,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:@react-three",
+    "plugin:react-three/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
@@ -14,7 +14,7 @@ module.exports = {
   plugins: ["react-refresh", "@react-three"],
   rules: {
     "react/jsx-no-target-blank": "off",
-    "@react-three/no-clone-in-frame-loop": "error",
+    "react-three/no-clone-in-frame-loop": "error",
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },

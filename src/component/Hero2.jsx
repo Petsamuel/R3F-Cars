@@ -40,7 +40,7 @@ export const PortalCard = ({ children, name, ...props }) => {
                     {name}
                     <meshBasicMaterial color={"white"} toneMapped={false} />
                 </Text>
-                <RoundedBox args={[3, 2.9, 0.1]} onClick={handleClicked}>
+                <RoundedBox args={[3, 2.9, 0.1]} onDoubleClick={handleClicked}>
 
                     <MeshPortalMaterial blend={active ? 1 : 0} ref={blendRef} >
                         <Lighting />
